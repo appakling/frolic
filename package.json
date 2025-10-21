@@ -1,0 +1,20 @@
+{
+    "name": "frolic",
+    "version": "0.0.1",
+    "description": "website project",
+    "repository": "https://github.com/appakling/frolic",
+    "author": "appakling",
+    "license": "MIT",
+    "private": false,
+    "devDependencies": {
+        "nodemon": "^3.1.9",
+        "static-server": "^3.0.0"
+        
+    },
+    "scripts": {
+        "start": "npm install -g static-server && npm install -g nodemon && nodemon --exec static-server -p 8080 -e html"
+    },
+    "dependencies": {
+        
+    }
+}
