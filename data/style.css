@@ -72,6 +72,7 @@
     		padding: 0 20px;
     		overflow: hidden;
 		}
+
 		#logo { /* for the gizmo wrench */
     		float: left;
     		font-size: 1.5em;
@@ -146,3 +147,31 @@
 			border: none;
 			border-radius: 3px;
 		}
+
+
+		.wrapper { /*I honestly don't know what these do, all I did for picomanager was update the pico-8 version to the latest(?) version*/
+  			margin: 0px;
+  			padding: 0px;
+  			height: 100%;
+ 			display: flex;
+  			display: -moz-box;
+  			display: -ms-flexbox;
+  			display: -webkit-box;
+  			display: -webkit-flex;
+  			align-items: center;
+  			justify-content: center;
+		}
+
+canvas { /*again, don't know.*/
+  border: 0px;
+  width: 512px;
+  height: 512px;
+  background: black;
+  image-rendering: optimizeSpeed;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: optimize-contrast;
+  image-rendering: pixelated;
+  -ms-interpolation-mode: nearest-neighbor;
+}
+		

@@ -38,14 +38,19 @@
 			<ul class="main-links">	
                 <hr>
 				</ul>
-				<div id="container">
-					<object>
-        				<embed src="../roms/ROMNAME.swf" width="750" height="600" />
-    				</object>
-					<p>you may have to reload the page</p>
-    				<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-				</div>
-				
+				<!-- Wrapper -->
+		<div class="wrapper">
+			<!-- Web Player -->
+			<div id="pico-container"></div>
+		</div>
+		<!-- Script -->
+		<script src="../../../data/picoplayer.js"></script>
+		<script>
+			document.addEventListener("DOMContentLoaded", function(event) {
+				PicoPlayer('pico-container', '../roms/Donsol.p8.png');
+			});
+		</script>
+		<p>you may have to reload the page</p>
 		<footer class="content">
 			<ul class="main-links">	
 				
