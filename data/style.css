@@ -13,9 +13,10 @@
 			color: #26233a; 
 		}
 
-		.footbar { /* a <hr> class that makes it darker and thicker, used ONLY for the footer */
+		footer { /* a <hr> class that makes it darker and thicker, used ONLY for the footer */
 			height: 5px;
-			color: #26233a; 
+			color: #26233a;
+			text-align: center;
 		}
 
 		p { /* default text */
