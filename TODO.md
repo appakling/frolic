@@ -1,6 +1,6 @@
 # TO DO
-1. get all flash files
-2. get all pico-8 files
+1. ~~get all flash files~~ **DONE**
+2. ~~get all pico-8 files~~ **DONE**
 3. add all games wanted
 4. finish UI
 5. polishing 
