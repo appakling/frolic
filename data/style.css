@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap');
 		body {
 			background-color: #191724; /* set the bg color */
-			font-family: "Atkinson Hyperlegible Mono", sans-serif;
+			font-family: 'Atkinson Hyperlegible Mono', sans-serif;
  		 	font-optical-sizing: auto;
   			font-style: normal;
 		}
@@ -13,50 +13,55 @@
 			color: #26233a; 
 		}
 
+		.footbar { /* a <hr> class that makes it darker and thicker, used ONLY for the footer */
+			height: 5px;
+			color: #26233a; 
+		}
+
 		p { /* default text */
 			color: #e0def4;
-			font-family: 'Cousine', monospace;
+			font-family: 'Atkinson Hyperlegible Mono', sans-serif;
 			font-size: 18px;
 		}
 		b { /* bold text */
 			color: #e0def4;
-			font-family: 'Cousine', monospace;
+			font-family: 'Atkinson Hyperlegible Mono', sans-serif;
 			font-weight: bold;
 			font-size: 22px;
 		}
 		h1 { /* headers */
 			color: #e0def4;
-			font-family: 'Cousine', monospace;
+			font-family: 'Atkinson Hyperlegible Mono', sans-serif;
 			font-size: 42px;
 		}
 		h2 { /* headers */
 			color: #e0def4;
-			font-family: 'Cousine', monospace;
+			font-family: 'Atkinson Hyperlegible Mono', sans-serif;
 			font-size: 34px;
 		}
 		h3 { /* headers */
 			color: #e0def4;
-			font-family: 'Cousine', monospace;
+			font-family: 'Atkinson Hyperlegible Mono', sans-serif;
 			font-size: 26px;
 		}
 		.comment { /* text id that makes the text tiny and grey*/
 			color: #6e6a86;
-			font-family: 'Cousine', monospace;
+			font-family: 'Atkinson Hyperlegible Mono', sans-serif;
 			font-size: 12px;
 		}
 		a { /* links */
 			color: #9ccfd8;
-			font-family: 'Cousine', monospace;
+			font-family: 'Atkinson Hyperlegible Mono', sans-serif;
 			font-size: 18px;
 		}
 		i { /* italic text */
 			color: #e0def4;
-			font-family: 'Cousine', monospace;
+			font-family: 'Atkinson Hyperlegible Mono', sans-serif;
 			font-size: 18px;
 		}
 		h2 { /* subheaders */
 			color: #e0def4;
-			font-family: 'Cousine', monospace;
+			font-family: 'Atkinson Hyperlegible Mono', sans-serif;
 			font-size: 30px;
 		}
 
@@ -102,6 +107,11 @@
 		}
 
 		.content { /* main page */
+    		padding: 50px 0;
+    		text-align: center;
+		}
+
+		.footer { /* bottom of page */
     		padding: 50px 0;
     		text-align: center;
 		}
