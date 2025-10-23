@@ -1,10 +1,12 @@
 /* this css is for the main page, not for the webretro UI*/
 
-@import url('https://fonts.googleapis.com/css2?family=Cousine:wght@700&display=swap'); /* load in our font */
-
+/* @import url('https://fonts.googleapis.com/css2?family=Cousine:wght@700&display=swap'); /* load in our font */
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap');
 		body {
 			background-color: #191724; /* set the bg color */
-			font-family: 'Cousine', monospace; /* set the font sitewide*/
+			font-family: "Atkinson Hyperlegible Mono", sans-serif;
+ 		 	font-optical-sizing: auto;
+  			font-style: normal;
 		}
 
 		hr { /* line break */
@@ -77,6 +79,7 @@
     		list-style-type: none;
     		margin: 0;
     		padding: 0;
+			
 		}
 	
 		.nav-links li { /* for the navlinks */
@@ -94,6 +97,8 @@
 
 		.nav-links li a:hover { /* on hover, change bg to a nice color */
     		background-color: #393552;
+			border: none;
+			border-radius: 3px;
 		}
 
 		.content { /* main page */
@@ -104,6 +109,8 @@
 		.main-links li { /* links that are styled like nav links, but on the main page*/
     		display: inline-block;
     		margin-left: 0px;
+			border: none;
+			border-radius: 3px;
 		}
 		
 		.main-links { /* see above */
@@ -119,8 +126,12 @@
     		padding: 10px 15px;
     		display: inline-block;
     		transition: background-color 0.3s;
+			border: none;
+			border-radius: 3px;
 		}
 
 		.main-links li a:hover { /* on hover change to color*/
 			background-color: #393552;
+			border: none;
+			border-radius: 3px;
 		}
