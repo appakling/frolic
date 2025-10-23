@@ -10,15 +10,24 @@
 		<link rel="icon" type="/image/x-icon" href="/data/logo.svg"> <!-- favicon (tab logo) -->
 
 		<link rel="stylesheet" href="../../../data/style.css"> <!-- styles the website -->
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 	</head>
 	<body>
+
 		<header>
+
 			<div class="container">
+
             <div id="logo"><a href="/index.html"><img width="38" height="40" src="/data/logo.svg"></a></div> <!-- logo on the top navbar-->
+
             <nav>
                 <ul class="nav-links"> <!-- all nav links / buttons -->
                     <li><a href="../../../index.html">home</a></li>
+
                     <li><a href="./games.html">games</a></li>
+
                     <li><a href="https://github.com/appakling/frolic">repo</a></li>
                   
                 </ul>
@@ -29,19 +38,20 @@
 			<h1>frolic/flash</h1>
 			<ul class="main-links">	
                 <hr>
+			</ul>
 
-				<object>
-        			<embed src="../roms/tboi.swf" width="1100" height="800" />
-    			</object>
+			<object>
+        		<embed src="../roms/tboi.swf" width="1500" height="1200" />
+    		</object>
 
-        	</ul>
+    		<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 		</div>
 		<footer class="content">
 			<ul class="main-links">	
                 <li><a href="../../flash.html">return</a></li>
                 
         	</ul>
-			<script src="https://unpkg.com/@ruffle-rs/ruffle"></script> <!-- flash emulator that lets us load games -->
+			
 		</footer>
     <script>
       feather.replace();
