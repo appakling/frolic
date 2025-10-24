@@ -1,0 +1,32 @@
+{
+	"name": "frolic",
+	"version": "0.0.1",
+	"description": "web game archive",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/appakling/frolic"
+	},
+	"author": "appakling",
+	"license": "MIT",
+	"main": "main.js",
+	"bugs": {
+		"url": "https://github.com/appakling/frolic/issues"
+	},
+	"homepage": "https://github.com/appakling/frolic#readme",
+   "scripts": {
+        "start": "nodemon static-server -p 8080 -e html",
+        "test": "",
+        "build": ""
+      },
+	"dependencies": {
+		"nodemon": "^3.1.9",
+    	"static-server": "^3.0.0"
+		
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.9",
+    	"static-server": "^3.0.0"
+		
+	}
+  
+}
