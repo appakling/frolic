@@ -22,20 +22,61 @@
             </nav>
         </div>
 		</header>
-		<div class="content">
-			<h1>frolic/menu</h1>
-		</br>
-		
+        <div class="title-content">
+            <h1>⊱ frolic/menu ⊰</h1>
+        </div>
+		<!--<div class="content">
 			<ul class="main-links">	
                 <hr>
                 <li><a href="./flash.html">flash collection</a></li>
                 <p>a collection of fun, quality flash games.</p>
-                <hr>
+
                 <li><a href="./pico8.html">pico-8 collection</a></li>
                 <p>a large collection of pico-8 titles.</p>
-                <hr>
+
         	</ul>
-		</div>
+		</div>-->
+        <hr>
+        <div class="game-container">
+            <div class="dropdown-menu">
+                <h3>frolic</h3>
+                <hr>
+                <!-- holds all the buttions -->
+                <div class="dropdown-menu-container">
+                    <!-- games that are pico related-->
+                    <div>
+                        <!-- each button and div must have an id different but similar from each other -->
+                        <input type="checkbox" id="Pico8" class="toggle">
+                        <label for="Pico8">pico-8 folder</label>
+                        <div id="Pico8-Items" class="folder-items">
+                            <!-- for now add links to them, im going to add the other stuff later-->
+                            <li><a href="./pico/pages/donsol.html">Donsol</a></li>
+                            <li><a href="./pico/pages/b9f.html">b9f</a></li>
+                            <li><a href="./pico/pages/pico-model.html">BUTTON MODEL</a></li>
+                        </div>
+                        <!-- test folder to help test to differentiate each folder -->
+                        <input type="checkbox" id="test" class="toggle">
+                        <label for="test">test</label>
+                        <div id="test" class="folder-items">
+                            <!-- for now add links to them, im going to add the other stuff later-->
+                            <li><a href="./pico/pages/donsol.html">Donsol</a></li>
+                            <li><a href="./pico/pages/b9f.html">b9f</a></li>
+                            <li><a href="./pico/pages/pico-model.html">BUTTON MODEL</a></li>
+                        </div>
+                        <!-- you can copy and paste the code to create a new folder..
+                        make sure they have a different id to them-->
+
+                    </div>
+                    <!-- basic normal flash games -->
+                    <li><a href="./flash/pages/tboi.html">The Binding Of Isaac</a></li>
+				    <li><a href="./flash/pages/meatboy.html">Super Meat Boy</a></li>
+				    <li><a href="./flash/pages/run3.html">Run 3</a></li>
+                    <li><a href="./flash/pages/flash-model.html">BUTTON MODEL</a></li>
+                </div>
+            </div>
+            <div class="game-image">
+            </div>
+        </div>
     <script>
       feather.replace();
     </script>
