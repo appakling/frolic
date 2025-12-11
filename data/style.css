@@ -271,16 +271,16 @@
 		}
 		
 		.game-image {
+			background-image: url(frolic-game-placeholder.png);
+			background-size: contain;
 			background-repeat: no-repeat;
 			margin-left: 10px;
 			border-radius: 5px;
 			object-fit: contain;
 			display: flex;
 		}
-		.game-image img {
-			display: block;
-			max-width: 100%;
-			max-height: 100%;
+		#tboi {
+			background-image: url(the-binding-of-isaac.jpg);
 		}
 		.game-title {
 			color:#e0def4;
@@ -312,7 +312,6 @@
 			border: none;
 			border-radius: 3px;
 		}
-
 
 		.game-play li a {
 			color: #e0def4;
