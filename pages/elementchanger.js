@@ -5,7 +5,7 @@ const info = document.getElementById("game-info");
 const title2 = document.getElementById("title-2");
 const creator = document.getElementById("game-creator");
 const link = document.getElementById("game-link");
-const image = document.getElementsByClassName("game-image")
+const image = document.getElementById("image");
 
 const Pico8button = document.getElementById("Pico8");
 const testbutton = document.getElementById("test");
@@ -36,6 +36,6 @@ game1.addEventListener('click', function(){
     link.href = "./flash/pages/tboi.html";
     title2.textContent = "The Binding Of Isaac";
     creator.textContent = "by Edmund McMillen and Florian Himsl";
-    image.src = "..\data\the-binding-of-isaac.jpg";
+    image.id = "tboi";
     title.textContent = "frolic/tboi";
 });
