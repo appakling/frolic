@@ -157,11 +157,12 @@
 		/* dropdown menu stuff */
 		.dropdown-menu {
 			color:#e0def4;
-			min-width: 320px;
-			max-height: 400px;
+			width: 320px;
+			height: 400px;
 			background-color: #232035;
 			padding: 10px;
 			border-radius: 5px;
+			overflow: hidden;
 		}
 
 		.dropdown-menu-container {
@@ -282,6 +283,7 @@
 			border-radius: 5px;
 			object-fit: contain;
 			display: flex;
+			align-content: center;
 		}
 		#tboi {
 			background-image: url(images/the-binding-of-isaac.jpg);
@@ -291,6 +293,21 @@
 		}
 		#run3 {
 			background-image: url(images/run-3.jpg);
+		}
+		#donsol {
+			background-image: url(images/donsol.png);
+		}
+		#b9f {
+			background-image: url(images/bf9.jpg);
+		}
+		#celeste {
+			background-image: url(images/celeste.png);
+		}
+		#j1b {
+			background-image: url(images/just-one-boss.png);
+		}
+		#porklike {
+			background-image: url(images/porklike.jpg);
 		}
 		.game-title {
 			color:#e0def4;
