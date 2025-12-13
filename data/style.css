@@ -1,4 +1,4 @@
-/* this css is for the main page,*/
+  /* this css is for the main page,*/
 
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap');
 		body {
@@ -157,11 +157,12 @@
 		/* dropdown menu stuff */
 		.dropdown-menu {
 			color:#e0def4;
-			min-width: 320px;
-			max-height: 400px;
+			width: 320px;
+			height: 400px;
 			background-color: #232035;
 			padding: 10px;
 			border-radius: 5px;
+			overflow: hidden;
 		}
 
 		.dropdown-menu-container {
@@ -196,6 +197,10 @@
 			border-radius: 3px;
 		}
 
+		.folders {
+			margin-left: 10px;
+		}
+
 		.folder-items {
 			border-left-style: solid;
 			margin-left: 10px;
@@ -204,6 +209,7 @@
 			margin-bottom: 5px;
 			margin-top: -5px;
 			border-radius: 3px;
+			margin-left: 0px;
 		}
 		.folder-items li {
 			display: block;
@@ -220,7 +226,6 @@
     		transition: background-color 0.3s;
 			border-radius: 3px;
 			font-size: 18px;
-			margin-left: 10px;
 			text-shadow: 0 0 15px #e0def4;
 		}
 		.dropdown-menu-container label:hover {
@@ -278,9 +283,31 @@
 			border-radius: 5px;
 			object-fit: contain;
 			display: flex;
+			align-content: center;
 		}
 		#tboi {
-			background-image: url(the-binding-of-isaac.jpg);
+			background-image: url(images/the-binding-of-isaac.jpg);
+		}
+		#meatboy {
+			background-image: url(images/super-meat-boy.jpg);
+		}
+		#run3 {
+			background-image: url(images/run-3.jpg);
+		}
+		#donsol {
+			background-image: url(images/donsol.png);
+		}
+		#b9f {
+			background-image: url(images/bf9.jpg);
+		}
+		#celeste {
+			background-image: url(images/celeste.png);
+		}
+		#j1b {
+			background-image: url(images/just-one-boss.png);
+		}
+		#porklike {
+			background-image: url(images/porklike.jpg);
 		}
 		.game-title {
 			color:#e0def4;
@@ -385,4 +412,3 @@ canvas { /*again, don't know.*/
   image-rendering: pixelated;
   -ms-interpolation-mode: nearest-neighbor;
 }
-
