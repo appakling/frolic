@@ -1,4 +1,4 @@
-/* this css is for the main page,*/
+  /* this css is for the main page,*/
 
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap');
 		body {
@@ -196,6 +196,10 @@
 			border-radius: 3px;
 		}
 
+		.folders {
+			margin-left: 10px;
+		}
+
 		.folder-items {
 			border-left-style: solid;
 			margin-left: 10px;
@@ -204,6 +208,7 @@
 			margin-bottom: 5px;
 			margin-top: -5px;
 			border-radius: 3px;
+			margin-left: 0px;
 		}
 		.folder-items li {
 			display: block;
@@ -220,7 +225,6 @@
     		transition: background-color 0.3s;
 			border-radius: 3px;
 			font-size: 18px;
-			margin-left: 10px;
 			text-shadow: 0 0 15px #e0def4;
 		}
 		.dropdown-menu-container label:hover {
@@ -280,7 +284,13 @@
 			display: flex;
 		}
 		#tboi {
-			background-image: url(the-binding-of-isaac.jpg);
+			background-image: url(images/the-binding-of-isaac.jpg);
+		}
+		#meatboy {
+			background-image: url(images/super-meat-boy.jpg);
+		}
+		#run3 {
+			background-image: url(images/run-3.jpg);
 		}
 		.game-title {
 			color:#e0def4;
@@ -385,4 +395,3 @@ canvas { /*again, don't know.*/
   image-rendering: pixelated;
   -ms-interpolation-mode: nearest-neighbor;
 }
-
