@@ -12,8 +12,8 @@
 			width: 0px;
 		}
 
-		hr { /* line break */
-			color: #26233a; 
+		hr { /* line break */ /*26233a*/
+			border-color: #eeeeee; 
 		}
 
 		footer { /* a <hr> class that makes it darker and thicker, used ONLY for the footer */
@@ -26,7 +26,7 @@
 			color: #e0def4;
 			font-family: 'Atkinson Hyperlegible Mono', sans-serif;
 			font-size: 18px;
-			text-shadow: 0 0 15px #e0def4;
+			text-shadow: 0px 0px 15px #e0def4;
 		}
 		b { /* bold text */
 			color: #e0def4;
@@ -45,14 +45,14 @@
 			color: #e0def4;
 			font-family: 'Atkinson Hyperlegible Mono', sans-serif;
 			font-size: 34px;
-			text-shadow: 0 0 20px #e0def4;
+			text-shadow: 0px 0px 20px #e0def4;
 
 		}
 		h3 { /* headers */
 			color: #e0def4;
 			font-family: 'Atkinson Hyperlegible Mono', sans-serif;
 			font-size: 26px;
-			text-shadow: 0 0 15px #e0def4;
+			text-shadow: 0px 0px 15px #e0def4;
 
 		}
 		.comment { /* text id that makes the text tiny and grey*/
@@ -69,7 +69,7 @@
 			color: #e0def4;
 			font-family: 'Atkinson Hyperlegible Mono', sans-serif;
 			font-size: 18px;
-			text-shadow: 0 0 13px #e0def4;
+			text-shadow: 0px 0px 13px #e0def4;
 		}
 		h2 { /* subheaders */
 			color: #e0def4;
@@ -96,8 +96,9 @@
     		padding: 0 20px;
     		overflow: hidden;
 			display: grid;
-			grid-template-columns: auto 470px auto;
-			grid-template-rows: auto 45px auto;
+			grid-template-columns: auto 470px 366px;
+			/*195.9*/
+			grid-template-rows: 140px 45px auto;
 			gap: 1em;
 			grid-template-areas: 
 			"box-1 box-2 box-3"
@@ -173,6 +174,7 @@
 			overflow-y: scroll;
 			max-height: 300px;
 			min-width: 320px;
+			scrollbar-width: none;
 		}
 		.dropdown-menu-container li {
     		margin-top: 7px;
@@ -205,6 +207,7 @@
 			border-left-style: solid;
 			margin-left: 10px;
 			transform: scaleY(0);
+			opacity: 0;
 			height: 0px;
 			margin-bottom: 5px;
 			margin-top: -5px;
@@ -238,7 +241,7 @@
 			opacity: 0;
 			position: absolute;
 			cursor: pointer;
-			
+			transition: transform 0.5;
 		}
 		/* to make a specific folder open */
 		/* the first id must be link to the button */
@@ -248,6 +251,7 @@
 			margin-top: 5px;
 			margin-bottom: 5px;
 			height: auto;
+			opacity: 1;
 		}
 		              /* 1st id:input id       2nd id: div id */
 		input[type="checkbox"]#test.folder-toggle:checked ~ #test-items {
@@ -255,8 +259,8 @@
 			margin-top: 5px;
 			margin-bottom: 5px;
 			height: auto;
+			opacity: 1;
 		}
-
 		.dropdown-menu h3 {
 			text-align: center;
 		}
@@ -276,38 +280,12 @@
 		}
 		
 		.game-image {
-			background-image: url(frolic-game-placeholder.png);
-			background-size: contain;
+			/*background-image: url(frolic-game-placeholder.png);
+			background-size: cover;
 			background-repeat: no-repeat;
-			margin-left: 10px;
+			background-position: center;*/
 			border-radius: 5px;
-			object-fit: contain;
-			display: flex;
-			align-content: center;
-		}
-		#tboi {
-			background-image: url(images/the-binding-of-isaac.jpg);
-		}
-		#meatboy {
-			background-image: url(images/super-meat-boy.jpg);
-		}
-		#run3 {
-			background-image: url(images/run-3.jpg);
-		}
-		#donsol {
-			background-image: url(images/donsol.png);
-		}
-		#b9f {
-			background-image: url(images/bf9.jpg);
-		}
-		#celeste {
-			background-image: url(images/celeste.png);
-		}
-		#j1b {
-			background-image: url(images/just-one-boss.png);
-		}
-		#porklike {
-			background-image: url(images/porklike.jpg);
+			height: 100%;
 		}
 		.game-title {
 			color:#e0def4;
@@ -348,6 +326,36 @@
 			border-radius: 3px;
 		}
 		/* end of the dropdown menu code */
+
+		.AnimBox-container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between; 
+		}
+		.AnimBox-top {
+			background-color: #726e92;
+			width: 200%;
+			min-height: 10vh;
+			max-height: 10vh;
+			margin-top: -8px;
+			margin-left: -10px;
+			z-index: 2;
+			position: fixed;
+			 flex: 1 1 auto; 
+		}
+		.AnimBox-bottom {
+			background-color: #726e92;
+			width: 200%;
+			min-height: 10vh;
+			max-height: 10vh;
+			margin-left: -10px;
+			z-index: 2;
+			position: fixed;
+			bottom: 0px;
+			 flex: 1 1 auto; 
+		}
+
+		/* end of emulator code*/
 
 		.main-links li { /* links that are styled like nav links, but on the main page*/
     		display: inline-block;

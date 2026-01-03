@@ -5,7 +5,7 @@
 	
 		<title>frolic</title>
 
-		<link rel="icon" type="/image/x-icon" href="/data/logo.svg">
+		<link rel="icon" type="/image/x-icon" href="../data/logo.svg">
 		<link rel="stylesheet" href="../data/style.css">
 	</head>
 	<body>
@@ -19,7 +19,7 @@
                     <li><a href="https://github.com/appakling/frolic">repo</a></li>
                   
                 </ul>          </nav>
-        </div>
+            </div>
 		</header>
         <div class="title-content">
             <h1>⊱ frolic/menu ⊰</h1>
@@ -42,13 +42,13 @@
                 <hr>
                 <!-- holds all the buttions -->
                 <div class="dropdown-menu-container">
-                    <!-- games that are pico related-->
+                    <!-- where folders go-->
                     <div class="folders">
                         <!-- each button and div must have an id different but similar from each other -->
                         <input type="checkbox" id="Pico8" class="folder-toggle">
                         <label for="Pico8">pico-8 folder</label>
                         <div id="Pico8-Items" class="folder-items">
-                            <!-- for now add links to them, im going to add the other stuff later-->
+                            <!-- copy and paste the input and li-label elements. put a number into the id slot -->
                             <input type="checkbox" id="4" class="folder-toggle">
                             <li><label for="4">Donsol</label></li>
                             <input type="checkbox" id="5" class="folder-toggle">
@@ -70,7 +70,6 @@
                         </div>
                         <!-- you can copy and paste the code to create a new folder..
                         make sure they have a different id to them-->
-
                     </div>
                     <!-- basic normal flash games -->
                     <input type="checkbox" id="1" class="folder-toggle">
@@ -83,7 +82,9 @@
 
                 </div>
             </div>
-            <div class="game-image" id="image" style="grid-area: box-2"></div>
+            <div style="display: flex; justify-content: center; grid-area: box-2 ">
+                <img src="../data/frolic-game-placeholder.png" class="game-image" id="image"/>
+            </div>
             <div class="game-title" style="grid-area: box-3">
                 <h2 id="title-2">Game Title</h2>
                 <p id="game-creator">Game Creator</p>

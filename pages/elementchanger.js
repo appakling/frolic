@@ -46,17 +46,17 @@ game1.addEventListener('click', function(){
     link.href = "./flash/pages/tboi.html";
     title2.textContent = "The Binding Of Isaac";
     creator.textContent = "by Edmund McMillen and Florian Himsl";
-    image.id = "tboi";
+    image.src = "../data/images/the-binding-of-isaac.jpg";
     title.textContent = "frolic/tboi";
 });
 
 game2.addEventListener('click', function(){
     info.textContent = "Super Meat Boy is a 2010 platform game developed and published by Team Meat. It is the first official game in the Super Meat Boy series, following the Flash prototype. It stars Meat Boy, who attempts to rescue his girlfriend Bandage Girl from Dr. Fetus.";
     info2.textContent = ""
-    link.href = "./flash/pages/meatboy.html";
+    link.href = "meatboy.html";
     title2.textContent = "Super Meat Boy";
     creator.textContent = "by Team Meat and Blitworks";
-    image.id = "meatboy";
+    image.src = "../data/images/super-meat-boy.jpg";
     title.textContent = "frolic/meat-boy";
 });
 
@@ -66,18 +66,17 @@ game3.addEventListener('click', function(){
     link.href = "./flash/pages/run3.html";
     title2.textContent = "Run 3";
     creator.textContent = "by Joseph Cloutier";
-    image.id = "run3";
+    image.src = "../data/images/run-3.jpg";
     title.textContent = "frolic/run3";
 });
 
 game4.addEventListener('click', function(){
     info.textContent = "After a long evening of playing cards at the local tavern, you head off home to get some sleep, but something goes wrong. You suddenly find yourself trapped in a nightmarish dungeon, which is infested with fiends, monsters and wicked witches intent on making sure you stay trapped in the dungeon forever. As you suddenly seem unable to find any exits, your amulet warns you that a strong curse has been placed on the dungeon by these same monsters. Armed only with your trusty dagger, will you be able to eliminate all the monsters, dispel the curse that prevents you from leaving and exit the dungeon, or will you suffer the wrath of the Donsols?";
-    info2.textContent = ""
     info2.textContent = "This is a PICO-8 port of Donsol by John Eternal and Hundred Rabbits, a dungeon-crawler game built around a deck of 54 cards.";
     link.href = "./pico/pages/donsol.html";
     title2.textContent = "Donsol";
     creator.textContent = "by rnd";
-    image.id = "donsol";
+    image.src = "../data/images/donsol.png";
     title.textContent = "frolic/Pico8/donsol";
 });
 
@@ -87,7 +86,7 @@ game5.addEventListener('click', function(){
     link.href = "./pico/pages/b9f.html";
     title2.textContent = "B9F";
     creator.textContent = "by shituniao";
-    image.id = "b9f";
+    image.src = "../data/images/bf9.jpg";
     title.textContent = "frolic/Pico8/b9f";
 });
 
@@ -97,7 +96,7 @@ game6.addEventListener('click', function(){
     link.href = "./pico/pages/celeste.html";
     title2.textContent = "Celeste";
     creator.textContent = "by Matt Thorson and Noel Berry";
-    image.id = "celeste";
+    image.src = "../data/images/celeste.png";
     title.textContent = "frolic/Pico8/celeste";
 });
 
@@ -107,7 +106,7 @@ game7.addEventListener('click', function(){
     link.href = "./pico/pages/j1b.html";
     title2.textContent = "Just One Boss";
     creator.textContent = "by bridgs";
-    image.id = "j1b";
+    image.src = "../data/images/just-one-boss.png";
     title.textContent = "frolic/Pico8/j1b";
 });
 
@@ -117,6 +116,6 @@ game8.addEventListener('click', function(){
     link.href = "./pico/pages/porklike.html";
     title2.textContent = "porklike";
     creator.textContent = "by Krystman";
-    image.id = "porklike";
+    image.src = "../data/images/porklike.jpg";
     title.textContent = "frolic/Pico8/porklike";
 });
